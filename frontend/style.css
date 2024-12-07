@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #131720;
+    font-family: sans-serif;
+    color: antiquewhite;
+}
+
+h3{
+    color:antiquewhite;
+    font-size: 10px;
+    font-size: 0.8vw;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color: #131720;
+    padding: 10px;
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color: antiquewhite;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.topnav .search-container{
+    float: right;
+}
+
+#form{
+    background-color: #151f30;
+    width: 300px;
+    height: 43px;
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+}
+
+input{
+    font: 15px system-ui;
+    color: #131720;
+    height: 100%;
+    width: 100%;
+    padding: 6px 9px;
+}
+
+.thumbnail{
+    height: 350px;
+    width: 100%;
+    border-radius: 16px;
+}
+
+.column{
+    float: left;
+    width: 20%;
+    padding: 10px;
+}
+
+.card{
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: darkslategrey;
+    height: 420px;
+    
+    
+}
+
+#newreviewtitle{
+    color:#131720;
+}
+
+p a{
+    float: left;
+    display: block;
+    color: antiquewhite;
+    text-align: center;
+    padding: 7px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
